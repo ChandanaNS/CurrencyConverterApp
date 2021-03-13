@@ -1,0 +1,169 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+  margin: auto;
+}
+/* Common Styles */
+
+.app-header,
+li a {
+  color: #ffffff;
+}
+.clearBtn,
+p,
+thead tr {
+  font-size: 18px;
+  line-height: 21px;
+}
+.currency-sec,
+thead {
+  background: #f0f1f4;
+}
+label,
+.currency-p,
+.currency-sec {
+  color: #3a3b3f;
+}
+.input-fields,
+.exchange-rate {
+  border-radius: 6px;
+}
+.table,
+p {
+  color: #333333;
+}
+
+/* Header */
+.app-header {
+  width: 1440px;
+  height: 62px;
+  background: #2b439c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+li {
+  width: 297px;
+  height: 62px;
+  display: inline-block;
+}
+li:first-child {
+  margin-left: 231px;
+}
+li a {
+  text-decoration: none;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-top: 21px;
+  height: 41px;
+}
+li:last-child,
+li a:hover:not(.active),
+li:last-child {
+  color: #8194db;
+}
+
+.active {
+  background-color: #15255e;
+}
+
+/* Main sec style */
+
+.main {
+  overflow: auto;
+  position: relative;
+  padding: 83px 0px 0px 235px;
+}
+p {
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  height: 33px;
+  width: 242px;
+  margin-bottom: 9px;
+}
+
+/* cardstyle */
+.currency-sec {
+  display: inline-block;
+  margin-right: 49px;
+  height: 293px;
+  width: 400px;
+  margin-top: 62px;
+  padding: 30px 37px;
+  border-radius: 10px;
+}
+
+.currency-sec > * {
+  display: block;
+  height: 21px;
+}
+.currency-p {
+  display: inline-block;
+  margin-right: 49px;
+  width: 400px;
+  padding: 18px 37px;
+}
+
+.input-fields {
+  width: 361px;
+  height: 62px;
+  margin: 13px 0px 32px;
+  border: 1px solid #bfbfbf;
+  padding: 20px 24px;
+}
+
+/* input currency */
+.input {
+  height: 20px;
+  width: 311px;
+}
+.text-container {
+  display: inline-block;
+  position: relative;
+}
+.clearBtn {
+  position: absolute;
+  top: 30px;
+  right: 21px;
+}
+
+/* Table styles */
+.exchangehead {
+  width: auto;
+  margin-bottom: 38px;
+}
+.exchange-rate {
+  width: 921px;
+  height: calc(100vh - 241px);
+  border: 1px solid #bfbfbf;
+  overflow: scroll;
+}
+table {
+  width: inherit;
+  text-align: left;
+  line-height: 26px;
+}
+thead {
+  width: 919px;
+  border-radius: 5px 5px 0px 0px;
+}
+thead tr {
+  height: 60px;
+  padding: 20px;
+}
+th {
+  padding-left: 20px;
+}
